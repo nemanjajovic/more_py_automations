@@ -43,5 +43,6 @@ def do_job():
 
 
 while True:
+    time.sleep(0.1)
     if keyboard.is_pressed("alt+f2"):
         do_job()
