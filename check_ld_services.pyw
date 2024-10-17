@@ -3,6 +3,8 @@ import time
 import keyboard
 import pyautogui as pag
 
+pag.alert("Program Started")
+
 
 # My custom algorithm to wait for picture to appear on the screen then proceed with script execution
 def is_present(img_path):
